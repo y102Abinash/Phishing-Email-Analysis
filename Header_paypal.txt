@@ -1,0 +1,17 @@
+Return-Path: <support@paypalsecure.com>
+Received: from unknownhost.fake.net (unknownhost.fake.net. [183.90.120.45])
+        by mx.google.com with ESMTP id abcdef123456;
+        Mon, 05 Aug 2025 10:23:45 +0530 (IST)
+Received-SPF: FAIL (google.com: domain of support@paypalsecure.com does not designate 183.90.120.45 as permitted sender) client-ip=183.90.120.45;
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of support@paypalsecure.com does not designate 183.90.120.45 as permitted sender) smtp.mailfrom=support@paypalsecure.com;
+       dkim=fail header.i=@paypalsecure.com;
+       dmarc=fail (p=REJECT) header.from=paypalsecure.com
+Message-ID: <09876.asd9876qwe123@paypalsecure.com>
+From: PayPal Security <support@paypalsecure.com>
+To: victim@example.com
+Subject: Urgent: Your PayPal Account Has Been Suspended!
+Date: Mon, 5 Aug 2025 10:22:00 +0530
+Reply-To: helpdesk@paypal-alerts.ru
+Content-Type: text/html
+MIME-Version: 1.0
