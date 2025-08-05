@@ -3,7 +3,7 @@
 ## 🏢 Internship Program
 **Cybersecurity Internship – Elevate Labs**  
 **Task 2:** Phishing Email Investigation  
-**Intern:** ABINASH I  
+**Intern:** ABINASH I 
 **Date:** 05/08/2025
 
 ---
@@ -17,8 +17,7 @@ Analyze a suspicious phishing email to identify key phishing indicators, includi
 
 - 📄 `from_paypal.txt` – Raw content of the phishing email  
 - 📄 `header.txt` – Original email header for analysis  
-- 📄 `Phishing_analyzer.pdf` – Complete investigation report  with Screenshort
-
+- 📄 `Phishing_analyzer.pdf` – Complete investigation report  with 📁 `screenshots/` – Supporting images 
 
 ---
 
@@ -45,10 +44,13 @@ Analyze a suspicious phishing email to identify key phishing indicators, includi
 
 ## 🧪 Tools Used
 
-- **MxToolbox / Google Email Header Analyzer** – Header breakdown  
-- **VirusTotal** – Scanned URLs and `.exe` file  
-- **Any.Run / Hybrid Analysis** – Sandbox analysis of attachments   
-- **Screenshot tools** – Captured evidence from tools used
+| Tool | Purpose | Link |
+|------|---------|------|
+| 🔍 **MxToolbox** | Analyze email headers and domain reputation | [https://mxtoolbox.com/](https://mxtoolbox.com/) |
+| 📧 **Google Header Analyzer** | Parse and visualize email headers | [https://toolbox.googleapps.com/apps/messageheader/](https://toolbox.googleapps.com/apps/messageheader/) |
+| 🛡️ **VirusTotal** | Scan links and files for known threats | [https://www.virustotal.com/](https://www.virustotal.com/) |
+| 🧪 **Any.Run** | Dynamic malware analysis sandbox | [https://any.run/](https://any.run/) |
+| 🧬 **Hybrid Analysis** | Sandbox for malware behavior | [https://www.hybrid-analysis.com/](https://www.hybrid-analysis.com/) |
 
 ---
 
@@ -70,4 +72,3 @@ The investigation confirms that the email is a **phishing attack**, using **soci
 ## 📌 Disclaimer
 
 This project was created as part of the **Elevate Labs Cybersecurity Internship** for educational and awareness purposes only. All tools and techniques were used within legal and controlled environments.
-
